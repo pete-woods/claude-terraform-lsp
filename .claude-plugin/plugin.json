@@ -1,0 +1,10 @@
+{
+  "name": "terraform-ls",
+  "version": "0.1.0",
+  "description": "Terraform code intelligence from HashiCorp's terraform-ls language server, run through go run",
+  "author": {
+    "name": "Pete Steyert-Woods"
+  },
+  "license": "MIT",
+  "keywords": ["terraform", "hcl", "lsp", "terraform-ls"]
+}

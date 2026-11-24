@@ -1,0 +1,11 @@
+{
+  "terraform": {
+    "command": "go",
+    "args": ["run", "github.com/hashicorp/terraform-ls@latest", "serve"],
+    "extensionToLanguage": {
+      ".tf": "terraform",
+      ".tfvars": "terraform-vars"
+    },
+    "startupTimeout": 300000
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "claude-terraform-lsp",
+  "description": "Terraform language server plugin for Claude Code",
+  "owner": {
+    "name": "Pete Steyert-Woods"
+  },
+  "plugins": [
+    {
+      "name": "terraform-ls",
+      "source": "./",
+      "description": "Terraform code intelligence from HashiCorp's terraform-ls language server, run through go run"
+    }
+  ]
+}
